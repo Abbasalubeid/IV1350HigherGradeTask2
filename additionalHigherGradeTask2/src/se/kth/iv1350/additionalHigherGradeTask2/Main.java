@@ -12,12 +12,12 @@ public class Main {
 
 		System.out.println("The current date is " + dateByInheritance + "\n");
 		System.out.println("(By inheritance) The current date and time is compared to day " + 18 + " of this month "
-				+ "and the time " + 16 + ":" + 10 + ":" + 37 + " is:");
+				+ "and the time " + 16 + ":" + 10 + ":" + 37);
 		System.out.println(dateByInheritance.dayAndTimeDifference(18, 16, 10, 37));
 		
 	
 		System.out.println("(By composition) The current date and time is compared to day " + 18 + " of this month "
-				+ "and the time " + 16 + ":" + 10 + ":" + 37 + " is:");
+				+ "and the time " + 16 + ":" + 10 + ":" + 37);
 		System.out.print(dateByComposition.dayAndTimeDifference(18, 16, 10, 37));
 
 	}
